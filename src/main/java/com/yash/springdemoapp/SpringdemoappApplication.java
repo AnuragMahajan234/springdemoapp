@@ -8,7 +8,7 @@ public class SpringdemoappApplication extends SpringBootServletInitializer{
 
 	 @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-         return application.sources(SpringdemoappApplication .class);
+         return application.sources(SpringdemoappApplication.class);
     }
 	public static void main(String[] args) {
 		SpringApplication.run(SpringdemoappApplication.class, args);
